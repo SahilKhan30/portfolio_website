@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>My Website</title>
+      <!-- ==== CSS Files ==== -->
+      <link rel="stylesheet" href="css/styles.css" />
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      />
+      <!-- Style Switcher -->
+      <link rel="stylesheet" href="css/style-switcher.css" />
+      <link
+         rel="stylesheet"
+         href="css/skins/color-1.css"
+         class="alternate-style"
+         title="color-1"
+      />
+      <link
+         rel="stylesheet"
+         href="css/skins/color-2.css"
+         class="alternate-style"
+         title="color-2"
+         disabled
+      />
+      <link
+         rel="stylesheet"
+         href="css/skins/color-3.css"
+         class="alternate-style"
+         title="color-3"
+         disabled
+      />
+      <link
+         rel="stylesheet"
+         href="css/skins/color-4.css"
+         class="alternate-style"
+         title="color-4"
+         disabled
+      />
+      <link
+         rel="stylesheet"
+         href="css/skins/color-5.css"
+         class="alternate-style"
+         title="color-5"
+         disabled
+      />
+   </head>
+
+   <body>
+      <!-- Main COntainer -->
+      <div class="main-container">
+         <!-- Aside start -->
+         <div class="aside">
+            <div class="logo">
+               <a href="#home"><span>M</span>y<span>S</span>ite</a>
+            </div>
+            <div class="nav-toggler">
+               <span></span>
+            </div>
+            <ul class="nav">
+               <li>
+                  <a href="#home" class="active"
+                     ><i class="fa fa-home"></i> Home</a
+                  >
+               </li>
+               <li>
+                  <a href="#education"
+                     ><i class="fa fa-school"></i> Education</a
+                  >
+               </li>
+               <li>
+                  <a href="#skills"><i class="fa fa-pen-ruler"></i> Skills</a>
+               </li>
+               <li>
+                  <a href="#project"><i class="fa fa-briefcase"></i> Project</a>
+               </li>
+               <li>
+                  <a href="#contact"><i class="fa fa-user"></i> Contact</a>
+               </li>
+            </ul>
+         </div>
+
+         <!-- Main content -->
+         <div class="main-content">
+            <!-- Home Section -->
+            <section class="home section" id="home">
+               <div class="container">
+                  <div class="row">
+                     <div class="home-info padd-15">
+                        <h3 class="hello">
+                           Hello, My name is
+                           <span class="name">Sahil Khan</span>
+                        </h3>
+                        <h3 class="my-profession">
+                           I'm a <span class="typing"></span>
+                        </h3>
+                        <p>
+                           A software engineering student, who is seeking for an
+                           opportunity to work in a fun and challenging
+                           environment. Interested in problem solving and try to
+                           come up with best possible solutions. Always looking
+                           forward to improve my skills and learn new
+                           technologies, that will help me and the company to
+                           advance in the software engineering industry.
+                        </p>
+                        <div class="buttons pad-15">
+                           <a
+                              href="pdf/sahil_standard.pdf"
+                              class="btn"
+                              download="Sahil-Khan-Resume"
+                              >Download CV</a
+                           >
+                           <a href="#contact" class="btn hire-me">Hire Me</a>
+                        </div>
+                     </div>
+                     <div class="home-img padd-15">
+                        <img src="images/sahil.jpg" alt="" />
+                     </div>
+                  </div>
+               </div>
+            </section>
+
+            <!-- Education Section -->
+            <section class="education section" id="education">
+               <div class="container">
+                  <div class="row">
+                     <div class="section-title padd-15" id="education-row1">
+                        <h2>Education</h2>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="education padd-15">
+                        <div class="row">
+                           <div class="timeline-box">
+                              <div class="timeline shadow-dark">
+                                 <!-- timeline -->
+                                 <div class="timeline-item">
+                                    <div class="circle-dot"></div>
+                                    <h3 class="timeline-date">
+                                       <i class="fa fa-calendar"></i>
+                                       2019-2023
+                                    </h3>
+                                    <h4 class="timeline-title">
+                                       B.Tech in Computer Science and
+                                       Engineering
+                                    </h4>
+                                    <p class="timeline-text">
+                                       Dronacharya Group of Institutions,<br />
+                                       Gautam Buddha Nagar, Uttar Pradsh.<br />
+                                       75.00%
+                                    </p>
+                                 </div>
+
+                                 <div class="timeline-item">
+                                    <div class="circle-dot"></div>
+                                    <h3 class="timeline-date">
+                                       <i class="fa fa-calendar"></i>
+                                       2016-2017
+                                    </h3>
+                                    <h4 class="timeline-title">
+                                       Intermediate (XII)
+                                    </h4>
+                                    <p class="timeline-text">
+                                       Sunbeam Academy, Samneghat<br />
+                                       83.68%
+                                    </p>
+                                 </div>
+
+                                 <div class="timeline-item">
+                                    <div class="circle-dot"></div>
+                                    <h3 class="timeline-date">
+                                       <i class="fa fa-calendar"></i>
+                                       2014-2015
+                                    </h3>
+                                    <h4 class="timeline-title">
+                                       High School (X)
+                                    </h4>
+                                    <p class="timeline-text">
+                                       ST.Mary's School<br />
+                                       87.8%
+                                    </p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+
+            <!-- Skills Section -->
+            <section class="skills section" id="skills">
+               <div class="container">
+                  <div class="row">
+                     <div class="section-title padd-15">
+                        <h2>My Skills</h2>
+                     </div>
+                  </div>
+                  <div class="skills padd-15">
+                     <div class="row">
+                        <div class="skill-item padd-15">
+                           <h5>Python</h5>
+                           <div class="progress">
+                              <div class="progress-in" style="width: 75%"></div>
+                              <div class="skill-percent">75%</div>
+                           </div>
+                        </div>
+                        <div class="skill-item padd-15">
+                           <h5>Java</h5>
+                           <div class="progress">
+                              <div class="progress-in" style="width: 50%"></div>
+                              <div class="skill-percent">50%</div>
+                           </div>
+                        </div>
+                        <div class="skill-item padd-15">
+                           <h5>HTML</h5>
+                           <div class="progress">
+                              <div class="progress-in" style="width: 70%"></div>
+                              <div class="skill-percent">70%</div>
+                           </div>
+                        </div>
+                        <div class="skill-item padd-15">
+                           <h5>CSS</h5>
+                           <div class="progress">
+                              <div class="progress-in" style="width: 65%"></div>
+                              <div class="skill-percent">65%</div>
+                           </div>
+                        </div>
+                        <div class="skill-item padd-15">
+                           <h5>JavaScript</h5>
+                           <div class="progress">
+                              <div class="progress-in" style="width: 75%"></div>
+                              <div class="skill-percent">75%</div>
+                           </div>
+                        </div>
+                        <div class="skill-item padd-15">
+                           <h5>C++</h5>
+                           <div class="progress">
+                              <div class="progress-in" style="width: 60%"></div>
+                              <div class="skill-percent">60%</div>
+                           </div>
+                        </div>
+                        <div class="skill-item padd-15">
+                           <h5>NodeJS</h5>
+                           <div class="progress">
+                              <div class="progress-in" style="width: 50%"></div>
+                              <div class="skill-percent">50%</div>
+                           </div>
+                        </div>
+                        <div class="skill-item padd-15">
+                           <h5>ReactJS</h5>
+                           <div class="progress">
+                              <div class="progress-in" style="width: 45%"></div>
+                              <div class="skill-percent">45%</div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+
+            <!-- project Section -->
+            <section class="project section" id="project">
+               <div class="container">
+                  <div class="row">
+                     <div class="section-title padd-15">
+                        <h2>Project</h2>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="project-heading padd-15">
+                        <h2>My Projects :</h2>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <!-- project item -->
+                     <div class="project-item padd-15">
+                        <div class="project-item-inner shadow-dark">
+                           <div class="project-video">
+                              <video
+                                 src="videos/project/project-1.mp4"
+                                 controls
+                              ></video>
+                           </div>
+                           <h4>Quiz Game</h4>
+                           <p>
+                              This a Quiz app fetch 10 random questions from
+                              Open Trivia Database and shows your correct answer
+                              score. This game is made in python using TKinter
+                              module and OOPs concepts.
+                           </p>
+                        </div>
+                     </div>
+                     <!-- project item -->
+                     <div class="project-item padd-15">
+                        <div class="project-item-inner shadow-dark">
+                           <div class="project-video">
+                              <video
+                                 src="videos/project/project-2.mp4"
+                                 controls
+                              ></video>
+                           </div>
+                           <h4>Snake Game</h4>
+                           <p>
+                              It is a classic Snake game, where you need score
+                              points by eating snake-food. The game is made in
+                              python language, using Turtle module and OOPs
+                              concepts.
+                           </p>
+                        </div>
+                     </div>
+                     <!-- project item -->
+                     <div class="project-item padd-15">
+                        <div class="project-item-inner shadow-dark">
+                           <div class="project-video">
+                              <video
+                                 src="videos/project/project-3.mp4"
+                                 controls
+                              ></video>
+                           </div>
+                           <h4>Pong Game</h4>
+                           <p>
+                              It is a classic Ping Pong game, where you need
+                              score points by making your opponent lose the
+                              ball. The game is made in python language, using
+                              Turtle module and OOPs concepts.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section class="contact section" id="contact">
+               <div class="container">
+                  <div class="row">
+                     <div class="section-title padd-15">
+                        <h2>Contact Me</h2>
+                     </div>
+                  </div>
+                  <h3 class="contact-title padd-15">
+                     Have You Any Questions ?
+                  </h3>
+                  <h4 class="contact-sub-title padd-15">
+                     I'M AT YOUR SERVICES
+                  </h4>
+                  <div class="row">
+                     <!-- Contact info item -->
+                     <div class="contact-info-item padd-15">
+                        <a
+                           href="tel:+919682862186"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                        >
+                           <div class="icon">
+                              <i class="fa fa-phone"></i>
+                           </div>
+                           <h4>Call Me On</h4>
+                           <p>+919682862186</p>
+                        </a>
+                     </div>
+
+                     <!-- Contact info item -->
+                     <div class="contact-info-item padd-15">
+                        <a
+                           href="https://www.google.co.in/maps/place/Sector+17A,+Gautam+Buddha+Nagar,+Uttar+Pradesh+203201/@28.3583988,77.539564,15.04z/data=!4m5!3m4!1s0x390cc75cd5f393d7:0xe6ae70064e15e731!8m2!3d28.3589841!4d77.5507629"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                        >
+                           <div class="icon">
+                              <i class="fa fa-map-marker-alt"></i>
+                           </div>
+                           <h4>Location</h4>
+                           <p>Gautam Buddha Nagar</p>
+                        </a>
+                     </div>
+
+                     <!-- Contact info item -->
+                     <div class="contact-info-item padd-15">
+                        <a
+                           href="mailto:sahilkhanvns1228@gmail.com"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                        >
+                           <div class="icon">
+                              <i class="fa fa-envelope"></i>
+                           </div>
+                           <h4>Email</h4>
+                           <p>sahilkhanvns1228@gmail.com</p></a
+                        >
+                     </div>
+
+                     <!-- Contact info item -->
+                     <div class="contact-info-item padd-15">
+                        <a
+                           href="https://www.linkedin.com/in/sahil-khan-84a15a227/"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                        >
+                           <div class="icon">
+                              <i class="fa-brands fa-linkedin"></i>
+                           </div>
+                           <h4>LinkedIn</h4>
+                           <p>sahil-khan-84a15a227</p>
+                        </a>
+                     </div>
+                  </div>
+                  <h3 class="contact-title padd-15">SEND ME A MAIL</h3>
+                  <h4 class="contact-sub-title padd-15">
+                     I'M VERY RESPONSIVE TO MESSAGES
+                  </h4>
+                  <!-- Contact Form -->
+                  <div class="row">
+                     <div class="contact-form padd-15">
+                        <div class="row">
+                           <div class="form-item col-6 padd-15">
+                              <div class="form-group">
+                                 <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="Name"
+                                 />
+                              </div>
+                           </div>
+                           <div class="form-item col-6 padd-15">
+                              <div class="form-group">
+                                 <input
+                                    type="email"
+                                    class="form-control"
+                                    placeholder="Email"
+                                 />
+                              </div>
+                           </div>
+                        </div>
+                        <div class="row">
+                           <div class="form-item col-12 padd-15">
+                              <div class="form-group">
+                                 <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="Subject"
+                                 />
+                              </div>
+                           </div>
+                        </div>
+                        <div class="row">
+                           <div class="form-item col-12 padd-15">
+                              <div class="form-group">
+                                 <textarea
+                                    name=""
+                                    class="form-control"
+                                    placeholder="Message"
+                                 ></textarea>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="row">
+                           <div class="form-item col-12 padd-15">
+                              <button type="submit" class="btn">
+                                 Send Message
+                              </button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+         </div>
+      </div>
+
+      <!-- Style Switcher -->
+      <div class="style-switcher">
+         <div class="style-switcher-toggler s-icon">
+            <i class="fas fa-cog fa-spin"></i>
+         </div>
+         <div class="day-night s-icon">
+            <i class="fas"></i>
+         </div>
+         <h4>Theme Colors</h4>
+         <div class="colors">
+            <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+            <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+            <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+            <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+            <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+         </div>
+      </div>
+
+      <!-- JS Files -->
+      <script
+         src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+         referrerpolicy="no-referrer"
+      ></script>
+      <script src="js/main.js"></script>
+      <script src="js/style-switcher.js"></script>
+   </body>
+</html>
